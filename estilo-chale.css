@@ -1,0 +1,156 @@
+/* estilo-chale.css */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#topo {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+#area-logo h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+#area-logo h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#area-menu {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+#menu-locais {
+    color: #fff;
+    text-align: right;
+}
+
+#menu-locais .reserva {
+    color: #fff;
+    text-decoration: none;
+    background-color: #e03030;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#menu-locais .reserva:hover {
+    background-color: #c02020;
+}
+
+#menu {
+    margin-top: 10px;
+}
+
+#navegacao {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#navegacao li {
+    display: inline;
+}
+
+#navegacao li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#navegacao li a:hover {
+    text-decoration: underline;
+}
+
+#area-principal {
+    padding: 20px;
+}
+
+#area-principal img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+#area-lateral {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+#beneficios {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#beneficios li {
+    margin-bottom: 20px;
+}
+
+#beneficios li img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Espaçamento entre a imagem e o texto */
+    object-fit: cover;/* Garante que a imagem se ajuste ao contêiner sem distorção */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+#beneficios li h3 {
+    margin: 10px 0 5px;
+    text-decoration: none;
+}
+
+#rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+#rodape .voltar-home {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#rodape .voltar-home:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
